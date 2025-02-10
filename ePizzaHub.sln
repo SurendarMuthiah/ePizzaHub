@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B322ECF4-A3C4-4339-8BE2-73A25623E1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.Core", "ePizzaCore\ePizza.Core.csproj", "{98998895-A64C-4389-899F-224B1D0B9DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.Models", "ePizza.Models\ePizza.Models.csproj", "{51D301F2-E3D4-442F-8F92-E3732866878E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.Repository", "ePizza.Repository\ePizza.Repository.csproj", "{E184A5AD-A3BC-4536-8F6D-5604F7DF9CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.UI", "ePizza.UI\ePizza.UI.csproj", "{2B7451D1-0315-48FC-8CAF-EB172A81A5C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.API", "ePizza.API\ePizza.API.csproj", "{F093C4A2-4ECC-4627-AC45-2AAD107026DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98998895-A64C-4389-899F-224B1D0B9DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98998895-A64C-4389-899F-224B1D0B9DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98998895-A64C-4389-899F-224B1D0B9DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98998895-A64C-4389-899F-224B1D0B9DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D301F2-E3D4-442F-8F92-E3732866878E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D301F2-E3D4-442F-8F92-E3732866878E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D301F2-E3D4-442F-8F92-E3732866878E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D301F2-E3D4-442F-8F92-E3732866878E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E184A5AD-A3BC-4536-8F6D-5604F7DF9CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E184A5AD-A3BC-4536-8F6D-5604F7DF9CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E184A5AD-A3BC-4536-8F6D-5604F7DF9CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E184A5AD-A3BC-4536-8F6D-5604F7DF9CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7451D1-0315-48FC-8CAF-EB172A81A5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7451D1-0315-48FC-8CAF-EB172A81A5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7451D1-0315-48FC-8CAF-EB172A81A5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7451D1-0315-48FC-8CAF-EB172A81A5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F093C4A2-4ECC-4627-AC45-2AAD107026DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F093C4A2-4ECC-4627-AC45-2AAD107026DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F093C4A2-4ECC-4627-AC45-2AAD107026DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F093C4A2-4ECC-4627-AC45-2AAD107026DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98998895-A64C-4389-899F-224B1D0B9DE1} = {B322ECF4-A3C4-4339-8BE2-73A25623E1B4}
+		{51D301F2-E3D4-442F-8F92-E3732866878E} = {B322ECF4-A3C4-4339-8BE2-73A25623E1B4}
+		{E184A5AD-A3BC-4536-8F6D-5604F7DF9CA2} = {B322ECF4-A3C4-4339-8BE2-73A25623E1B4}
+		{2B7451D1-0315-48FC-8CAF-EB172A81A5C2} = {B322ECF4-A3C4-4339-8BE2-73A25623E1B4}
+		{F093C4A2-4ECC-4627-AC45-2AAD107026DB} = {B322ECF4-A3C4-4339-8BE2-73A25623E1B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B548093-B9CE-43F0-9496-A2B20951CD53}
+	EndGlobalSection
+EndGlobal
